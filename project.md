@@ -57,6 +57,10 @@ assets/
 This project is for educational and personal use.  
 Feel free to modify and share!
 
+
+ACCESS THE PROJECT ON THE LINK BELOW
+https://nairobi-explorer-git-main-joyce-kadzos-projects.vercel.app
+
 ---
 
 Made with ❤️ for adventure seekers.

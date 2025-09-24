@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Nairobi | Vibrant City Life</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="antialiased">
+
+    <!-- Header & Navigation -->
+    <header class="bg-gradient-to-r from-purple-900 via-indigo-900 to-blue-900 text-white shadow-2xl sticky top-0 z-50 backdrop-blur-sm">
+        <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-3xl font-extrabold tracking-tight rainbow-text hover:scale-105 transition-transform duration-300">Nairobi Explorer</a>
+            <div class="flex items-center space-x-8">
+                <a href="index.html" class="text-amber-400 text-lg font-semibold hover:text-amber-300 transition-all duration-300 hover:scale-110 transform">Home</a>
+                <a href="places.html" class="text-gray-300 text-lg font-medium hover:text-cyan-400 transition-all duration-300 hover:scale-110 transform">Places</a>
+                <a href="#cultural-gems" class="text-gray-300 text-lg font-medium hover:text-green-400 transition-all duration-300 hover:scale-110 transform">Culture</a>
+                <a href="contact.html" class="text-gray-300 text-lg font-medium hover:text-pink-400 transition-all duration-300 hover:scale-110 transform">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--  Hero Section -->
+        <section class="relative hero-gradient h-[85vh] flex items-center justify-center text-center p-4 overflow-hidden">
+            <img src="assets/images/nairobi-hero.jpg" alt="Nairobi" class="absolute inset-0 w-full h-full object-cover">
+            <!-- Animated background elements -->
+            <div class="absolute inset-0 opacity-20">
+                <div class="floating-animation absolute top-20 left-10 w-20 h-20 bg-white rounded-full"></div>
+                <div class="floating-animation absolute top-40 right-20 w-16 h-16 bg-yellow-300 rounded-full" style="animation-delay: -2s;"></div>
+                <div class="floating-animation absolute bottom-32 left-1/4 w-12 h-12 bg-pink-300 rounded-full" style="animation-delay: -4s;"></div>
+                <div class="floating-animation absolute bottom-20 right-1/3 w-24 h-24 bg-cyan-300 rounded-full" style="animation-delay: -1s;"></div>
+            </div>
+            
+            <!-- overlay -->
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+            <div class="relative z-10 text-white max-w-6xl mx-auto">
+                <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold mb-6 text-shadow-vibrant leading-tight">Welcome to the <span class="text-yellow-300">Green City</span> in the <span class="text-orange-300">Sun</span></h1>
+                <p class="text-xl sm:text-2xl md:text-3xl font-light mb-10 max-w-4xl mx-auto opacity-95">Discover the pulsating heart of East Africa, where urban life meets wild nature and vibrant culture thrives in perfect harmony.</p>
+                <a href="#attractions" class="inline-block bg-gradient-to-r from-green-500 to-cyan-500 text-white font-bold py-4 px-10 rounded-full shadow-2xl hover:shadow-3xl pulse-glow transition-all duration-300 transform hover:scale-110 text-xl">Start Your Amazing Journey</a>
+            </div>
+        </section>
+
+        <!-- Main Attractions Section -->
+        <section id="attractions" class="container mx-auto py-20 px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl font-extrabold mb-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">Nairobi's Iconic Landmarks</h2>
+                <div class="w-32 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto rounded-full"></div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+
+                <!-- Nairobi National Park -->
+                <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-green-400">
+                    <div class="relative">
+                        <img src="assets/images/Nairobi national park.jpg" alt="Nairobi National Park" class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4">
+                            <span class="text-sm font-bold text-white bg-gradient-to-r from-green-500 to-emerald-600 rounded-full px-4 py-2 shadow-lg">🦁 Nature</span>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mt-2 mb-3 text-gray-900">Nairobi National Park</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">The only national park in the world located within a capital city. Witness lions, rhinos, and giraffes with the city skyline as your backdrop.</p>
+                        <div class="flex items-center text-sm text-green-600 font-semibold">
+                            <span>🌟 Must Visit</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Giraffe Centre -->
+                <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-red-400">
+                    <div class="relative">
+                        <img src="assets/images/giraffe centre.jpg" alt="Giraffe Centre" class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4">
+                            <span class="text-sm font-bold text-white bg-gradient-to-r from-red-500 to-pink-600 rounded-full px-4 py-2 shadow-lg">🦒 Wildlife</span>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mt-2 mb-3 text-gray-900">The Giraffe Centre</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">Get up close and personal with the endangered Rothschild giraffes. A unique and memorable interactive experience for all ages.</p>
+                        <div class="flex items-center text-sm text-red-600 font-semibold">
+                            <span>❤️ Family Friendly</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maasai Market -->
+                <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-amber-400">
+                    <div class="relative">
+                        <img src="assets/images/Masai market.jpg" alt="Maasai Market" class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4">
+                            <span class="text-sm font-bold text-white bg-gradient-to-r from-amber-500 to-orange-600 rounded-full px-4 py-2 shadow-lg">🎨 Culture</span>
+                        </div>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold mt-2 mb-3 text-gray-900">The Maasai Market</h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">Explore a vibrant open-air market filled with beautiful handcrafted jewelry, colorful fabrics, and traditional Kenyan artifacts.</p>
+                        <div class="flex items-center text-sm text-amber-600 font-semibold">
+                            <span>🛍️ Shopping Paradise</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- Cultural & Urban Gems Section -->
+        <section id="cultural-gems" class="bg-gradient-to-r from-slate-50 to-cyan-50 py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl sm:text-5xl font-extrabold mb-4 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">Cultural & Urban Gems</h2>
+                    <div class="w-32 h-1 bg-gradient-to-r from-cyan-500 to-purple-500 mx-auto rounded-full"></div>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-blue-400">
+                        <div class="relative">
+                            <img src="assets/images/Sheldrick wildlife.jpg" alt="David Sheldrick Wildlife Trust" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full px-4 py-2 shadow-lg">🐘 Conservation</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Sheldrick Wildlife Trust</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">World-renowned elephant orphanage protecting and rehabilitating orphaned baby elephants and rhinos.</p>
+                            <div class="flex items-center text-xs text-blue-600 font-semibold">
+                                <span>💙 Conservation Hero</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-gray-400">
+                        <div class="relative">
+                            <img src="assets/images/Karen Blixen Musem.jpg" alt="Karen Blixen Museum" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-gray-500 to-slate-600 rounded-full px-4 py-2 shadow-lg">📚 History</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Karen Blixen Museum</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">Former home of Danish author Karen Blixen, of "Out of Africa" fame. A glimpse into Kenya's colonial history.</p>
+                            <div class="flex items-center text-xs text-gray-600 font-semibold">
+                                <span>📖 Literary Heritage</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-purple-400">
+                        <div class="relative">
+                            <img src="assets/images/Bomas of Kenya.jpg" alt="Bomas of Kenya" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-purple-500 to-violet-600 rounded-full px-4 py-2 shadow-lg">🎭 Heritage</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Bomas of Kenya</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">Open-air museum showcasing diverse traditional cultures and homesteads of Kenya's various ethnic groups.</p>
+                            <div class="flex items-center text-xs text-purple-600 font-semibold">
+                                <span>🌍 Cultural Diversity</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-green-400">
+                        <div class="relative">
+                            <img src="assets/images/Karura forest.jpg" alt="Karura Forest" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-green-500 to-emerald-600 rounded-full px-4 py-2 shadow-lg">🌳 Nature</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Karura Forest</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">Beautiful urban forest with miles of walking trails, a waterfall, and serene environment for city escape.</p>
+                            <div class="flex items-center text-xs text-green-600 font-semibold">
+                                <span>🚶‍♀️ Urban Escape</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-fuchsia-400">
+                        <div class="relative">
+                            <img src="assets/images/Oloolua nature trail.jpg" alt="Oloolua Nature Trail" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-fuchsia-500 to-pink-600 rounded-full px-4 py-2 shadow-lg">🥾 Adventure</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Oloolua Nature Trail</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">Hidden gem offering lush walking trail, stunning waterfall, and limestone cave for quiet afternoon hikes.</p>
+                            <div class="flex items-center text-xs text-fuchsia-600 font-semibold">
+                                <span>💎 Hidden Gem</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-sky-400">
+                        <div class="relative">
+                            <img src="assets/images/Nairobi National Museum.jpeg" alt="Nairobi National Museum" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-sky-500 to-blue-600 rounded-full px-4 py-2 shadow-lg">🏛️ History</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Nairobi National Museum</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">Explore Kenyan history, nature, culture, and art. Home to the Snake Park and Botanic Gardens.</p>
+                            <div class="flex items-center text-xs text-sky-600 font-semibold">
+                                <span>🎨 Art & History</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-3xl shadow-2xl overflow-hidden card-hover transition-all duration-300 neon-border border-slate-400">
+                        <div class="relative">
+                            <img src="assets/images/Railway museum.jpg" alt="Nairobi Railway Museum" class="w-full h-56 object-cover">
+                            <div class="absolute top-4 left-4">
+                                <span class="text-sm font-bold text-white bg-gradient-to-r from-slate-500 to-gray-600 rounded-full px-4 py-2 shadow-lg">🚂 History</span>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mt-2 mb-2 text-gray-900">Railway Museum</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm mb-3">Fascinating railway history including vintage steam locomotives and the famous "man-eaters of Tsavo" story.</p>
+                            <div class="flex items-center text-xs text-slate-600 font-semibold">
+                                <span>🚂 Railway Heritage</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="bg-gradient-to-r from-teal-600 via-cyan-600 to-blue-600 text-white py-24 relative overflow-hidden">
+            <!-- Background animation -->
+            <div class="absolute inset-0 opacity-10">
+                <div class="floating-animation absolute top-10 left-20 w-32 h-32 bg-white rounded-full"></div>
+                <div class="floating-animation absolute bottom-20 right-10 w-24 h-24 bg-yellow-300 rounded-full" style="animation-delay: -3s;"></div>
+            </div>
+            
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h2 class="text-4xl sm:text-5xl font-extrabold mb-6 text-shadow-vibrant">Ready to experience the magic of Nairobi?</h2>
+                <p class="text-xl sm:text-2xl font-light mb-10 max-w-3xl mx-auto opacity-95">From thrilling safaris to rich cultural experiences, Nairobi has it all. Your adventure of a lifetime awaits!</p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="#" class="bg-gradient-to-r from-yellow-400 to-orange-500 text-gray-900 font-bold py-4 px-12 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-110 text-xl">Book Your Tour</a>
+                    <a href="#attractions" class="border-2 border-white text-white font-bold py-4 px-12 rounded-full hover:bg-white hover:text-teal-600 transition-all duration-300 transform hover:scale-110 text-xl">Explore More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-r from-gray-900 via-slate-900 to-gray-900 text-gray-400 py-12">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-8">
+                <h3 class="text-2xl font-bold text-white mb-4 rainbow-text">Nairobi Explorer</h3>
+                <p class="text-gray-300 max-w-2xl mx-auto">Your gateway to discovering the vibrant heart of East Africa. Experience the perfect blend of urban excitement and natural wonder.</p>
+            </div>
+            <div class="text-center border-t border-gray-700 pt-8">
+                <p>&copy; 2025 Nairobi Explorer. All rights reserved. Made with ❤️ for adventure seekers.</p>
+                <div class="mt-4 flex justify-center space-x-6">
+                    <a href="#" class="hover:text-amber-400 transition-colors duration-300 font-semibold">Privacy Policy</a>
+                    <a href="#" class="hover:text-amber-400 transition-colors duration-300 font-semibold">Terms of Service</a>
+                    <a href="contact.html" class="hover:text-amber-400 transition-colors duration-300 font-semibold">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
